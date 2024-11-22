@@ -1,0 +1,58 @@
+<html>
+
+<head>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="styles/styles.css" rel="stylesheet" />
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar bg-dark">
+        <div class="container-fluid navbar-container">
+            <a class="navbar-brand" href="#">
+                <img src="assets/stake-logo.png" alt="Stake Logo" class="logo" />
+            </a>
+            <form class="d-flex" role="search">
+                <button class="btn btn-dark" type="submit">Sign In</button>
+                <button class="btn btn-primary" type="submit">Register</button>
+            </form>
+        </div>
+    </nav>
+    <div class="container-fluid content-container">
+        <div class="card mb-3" style="max-width: 1200px; background-color: #283444;">
+            <div class="row g-0">
+                <div class="col-md-3">
+                    <div class="card-body">
+                        <div class="button-container">
+                            <input type="radio" class="btn-check" name="options" id="manual" autocomplete="off" checked>
+                            <label class="btn btn-dark toggle-button" for="manual">Manual</label>
+
+                            <input type="radio" class="btn-check" name="options" id="auto" autocomplete="off">
+                            <label class="btn btn-dark toggle-button" for="auto">Auto</label>
+                        </div>
+                        <img src="assets/wager-section.png" alt="Wager Section" style="width: 270px; margin-top: 10px;" />
+                        <button type="button" class="btn btn-success play-button">Play</button>
+                    </div>
+                </div>
+                <div class="col-md-9 game-board">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="assets/roulette-display.png" alt="Roulette Display" />
+                        </div>
+                        <div class="col-md-4">
+                            <img class="roulette-wheel" src="assets/roulette-wheel.png" alt="Roulette Wheel" />
+                        </div>
+                        <div class="col-md-4">
+
+                        </div>
+                    </div>
+                    <div class="row">
+                        <img src="assets/roulette-board.png" alt="Roulette Board" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
